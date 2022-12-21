@@ -1,9 +1,11 @@
 import React from 'react';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import {
   Container,
   Description,
-  Category
+  Category,
+  Button
 } from './styles';
 
 
@@ -16,6 +18,9 @@ export function Task({ task }) {
       <Category>
         {task.category}
       </Category>
+      <Button>
+        <Icon name="edit" />
+      </Button>
     </Container>
   )
 }

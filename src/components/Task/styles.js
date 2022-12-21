@@ -23,3 +23,6 @@ export const Category = styled.Text`
   padding: 5px 10px;
   border-radius: 5px;
 `;
+
+export const Button = styled.TouchableOpacity`
+`;
